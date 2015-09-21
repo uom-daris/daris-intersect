@@ -13,9 +13,9 @@ import arc.xml.XmlWriter;
 /**
  * This service creates a user within the specified authentication domain, also
  * it grants user with *:daris.model.user roles so that the user can access all
- * the daris services.
+ * the daris services. It calls user.create and actor.grant services.
  * 
- * Note: it executes in an atomic transaction.
+ * Note: this service executes in an atomic transaction.
  * 
  *
  */
