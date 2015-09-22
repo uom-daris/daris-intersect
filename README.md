@@ -5,7 +5,7 @@ Domain specific package for Intersect.
 
     git clone git@github.com:uom-daris/daris-intersect.git
 
-### 2. Build
+### 2. Build using Maven
     cd daris-intersect
     mvn clean package
 
